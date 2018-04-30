@@ -62,7 +62,7 @@ The most important classes are:
 - [Mission](/api_reference/classdronecore_1_1_mission.md): Waypoint mission creation and upload/download. Missions are created from [MissionItem](/api_reference/classdronecore_1_1_mission_item.md) objects.
 - [Offboard](/api_reference/classdronecore_1_1_offboard.md): Control a drone with velocity commands.
 - [Logging](/api_reference/classdronecore_1_1_logging.md): Data logging and streaming from the vehicle.
-- [include/device_plugin_container.h.in](https://github.com/dronecore/DroneCore/blob/master/include/device_plugin_container.h.in): Auto-generated file that is required for DroneCore plugin development - see [DevicePluginContainer](/api_reference/classdronecore_1_1_device_plugin_container.md).
+- [include/device_plugin_container.h.in](https://github.com/dronecore/DroneCore/blob/v0.3.0/include/device_plugin_container.h.in): Auto-generated file that is required for DroneCore plugin development - see [DevicePluginContainer](/api_reference/classdronecore_1_1_device_plugin_container.md).
 
 
 ## Getting Started
@@ -94,5 +94,5 @@ The [Contributing](contributing/README.md) section contains everything you need 
 
 ## License
 
-* DroneCore is licensed under the permissive [BSD 3-clause](https://github.com/dronecore/DroneCore/blob/master/LICENSE.md).
+* DroneCore is licensed under the permissive [BSD 3-clause](https://github.com/dronecore/DroneCore/blob/v0.3.0/LICENSE.md).
 * This *DroneCore Developer Documentation* is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.

@@ -25,7 +25,7 @@ To build the *DroneCore* C++ Library on Linux (or macOS after installing the [pr
    sudo apt-get update -y
    sudo apt-get install cmake build-essential colordiff astyle git libcurl4-openssl-dev doxygen -y
    ```
-   > **Note** If the build reports a missing dependency, confirm that the set above matches the requirements in the [Dockerfile](https://github.com/dronecore/DroneCore/blob/master/Dockerfile).
+   > **Note** If the build reports a missing dependency, confirm that the set above matches the requirements in the [Dockerfile](https://github.com/dronecore/DroneCore/blob/v0.3.0/Dockerfile).
 
 1. Clone the [DroneCore repository](https://github.com/dronecore/DroneCore) (or your fork): 
    ```sh
@@ -202,12 +202,12 @@ make ios_simulator install
 
 ## Build with external directory for plugins and custom integration_tests
 
-The library is split into a [core](https://github.com/dronecore/DroneCore/tree/master/core) and [plugins](https://github.com/dronecore/DroneCore/tree/master/plugins). The plugins are included at compile time.
-The cmake script [autogenerate_plugin_container.cmake](https://github.com/dronecore/DroneCore/blob/master/autogenerate_plugin_container.cmake) takes care of including the plugin folders and integrations tests.
+The library is split into a [core](https://github.com/dronecore/DroneCore/tree/v0.3.0/core) and [plugins](https://github.com/dronecore/DroneCore/tree/v0.3.0/plugins). The plugins are included at compile time.
+The cmake script [autogenerate_plugin_container.cmake](https://github.com/dronecore/DroneCore/blob/v0.3.0/autogenerate_plugin_container.cmake) takes care of including the plugin folders and integrations tests.
 
 The architecture goal is that the plugins do not depend on each other but only to the core source. This means you can swap out plugins as needed, however, it will lead to some duplicate functionality across the plugin modules.
 
-You can add modules by copying the [external_example](https://github.com/dronecore/DroneCore/tree/master/external_example) and adapting it:
+You can add modules by copying the [external_example](https://github.com/dronecore/DroneCore/tree/v0.3.0/external_example) and adapting it:
 
 The external directory needs to contain the folders `integration_tests` and `plugins`.
 
@@ -309,7 +309,7 @@ docker run --rm -it -v $HOME/<path-to-dronecore-repo>/DroneCore:/home/docker1000
 
 The approach above downloads a container image ([dronecore/dronecore](https://hub.docker.com/r/dronecore/dronecore/)) from Docker Hub.
 
-You can also build the image yourself using the [Dockerfile](https://github.com/dronecore/DroneCore/blob/master/Dockerfile) in the root of the DroneCore repository (this is based on Ubuntu 16.04). The image can be used in the same way as the one from Docker Hub.
+You can also build the image yourself using the [Dockerfile](https://github.com/dronecore/DroneCore/blob/v0.3.0/Dockerfile) in the root of the DroneCore repository (this is based on Ubuntu 16.04). The image can be used in the same way as the one from Docker Hub.
 
 1. Open a command prompt/terminal in the root of the DroneCore repository.
 1. Build the image as shown:

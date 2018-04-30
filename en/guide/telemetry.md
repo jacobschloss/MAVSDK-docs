@@ -151,8 +151,8 @@ Additional information/examples for the Telemetry API are linked below:
 
 * [DroneCore Examples](../examples/README.md)
 * Integration tests:
-  * [telemetry_async.cpp](https://github.com/dronecore/DroneCore/blob/master/integration_tests/telemetry_async.cpp)
-  * [telemetry_health.cpp](https://github.com/dronecore/DroneCore/blob/master/integration_tests/telemetry_health.cpp)
-  * [telemetry_modes.cpp](https://github.com/dronecore/DroneCore/blob/master/integration_tests/telemetry_modes.cpp)
-  * [telemetry_simple.cpp](https://github.com/dronecore/DroneCore/blob/master/integration_tests/telemetry_simple.cpp)
+  * [telemetry_async.cpp](https://github.com/dronecore/DroneCore/blob/v0.3.0/integration_tests/telemetry_async.cpp)
+  * [telemetry_health.cpp](https://github.com/dronecore/DroneCore/blob/v0.3.0/integration_tests/telemetry_health.cpp)
+  * [telemetry_modes.cpp](https://github.com/dronecore/DroneCore/blob/v0.3.0/integration_tests/telemetry_modes.cpp)
+  * [telemetry_simple.cpp](https://github.com/dronecore/DroneCore/blob/v0.3.0/integration_tests/telemetry_simple.cpp)
 
